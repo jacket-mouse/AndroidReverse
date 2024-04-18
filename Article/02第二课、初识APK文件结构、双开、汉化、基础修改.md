@@ -61,6 +61,7 @@ apk 全称 Android Package，它相当于一个压缩文件，只要在电脑上
 ![|800](_assets_02/cb35179c3ff8786b19fc1d2d2ecae12e.webp)
 
 ## 4.初识AndroidMainfest.xml
+
 ---
 AndroidManifest.xml文件是整个应用程序的信息描述文件，定义了应用程序中包含的Activity,Service,Content provider和BroadcastReceiver组件信息。每个应用程序在[根目录](https://so.csdn.net/so/search?q=%E6%A0%B9%E7%9B%AE%E5%BD%95&spm=1001.2101.3001.7020)下必须包含一个AndroidManifest.xml文件，且文件名不能修改。它描述了package中暴露的组件，他们各自的实现类，各种能被处理的数据和启动位置。
 | 属性                               | 定义                                                     |
