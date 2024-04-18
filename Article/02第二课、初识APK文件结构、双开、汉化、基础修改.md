@@ -28,15 +28,15 @@
 
 apk 全称 Android Package，它相当于一个压缩文件，只要在电脑上将apk后缀改为rar即可解压。
 
-| 文件                | 注释                                                                                                                                            |     |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| assets目录          | 存放APK的静态资源文件，比如视频，音频，图片等                                                                                                   |     |
-| lib 目录            | armeabi-v7a基本通用所有android设备，arm64-v8a只适用于64位的android设备，x86常见用于android模拟器，其目录下的.so文件是c或c++编译的动态链接库文件 |     |
-| META-INF目录        | 保存应用的签名信息，签名信息可以验证APK文件的完整性，相当于APK的身份证(验证文件是否又被修改)                                                    |     |
-| res目录             |res目录存放资源文件，包括图片，字符串等等，APK的脸蛋由他的layout文件设计                                                                             |     |
-| AndroidMainfest.xml文件 | APK的应用清单信息，它描述了应用的名字，版本，权限，引用的库文件等等信息                                                                         |     |
-| classes.dex文件     | classes.dex是java源码编译后生成的java字节码文件，APK运行的主要逻辑                                                                              |     |
-| resources.arsc文件  | resources.arsc是编译后的二进制资源文件，它是一个映射表，映射着资源和id，通过R文件中的id就可以找到对应的资源                                                                                                                                                |     |
+| 文件                | 注释                                                                                                                                            |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| assets目录          | 存放APK的静态资源文件，比如视频，音频，图片等                                                                                                   |
+| lib 目录            | armeabi-v7a基本通用所有android设备，arm64-v8a只适用于64位的android设备，x86常见用于android模拟器，其目录下的.so文件是c或c++编译的动态链接库文件 |
+| META-INF目录        | 保存应用的签名信息，签名信息可以验证APK文件的完整性，相当于APK的身份证(验证文件是否又被修改)                                                    |
+| res目录             |res目录存放资源文件，包括图片，字符串等等，APK的脸蛋由他的layout文件设计                                                                             |
+| AndroidMainfest.xml文件 | APK的应用清单信息，它描述了应用的名字，版本，权限，引用的库文件等等信息                                                                         |
+| classes.dex文件     | classes.dex是java源码编译后生成的java字节码文件，APK运行的主要逻辑                                                                              |
+| resources.arsc文件  | resources.arsc是编译后的二进制资源文件，它是一个映射表，映射着资源和id，通过R文件中的id就可以找到对应的资源                                                                                                                                                |
 
 ## 2.双开及原理
 
@@ -77,13 +77,13 @@ AndroidManifest.xml文件是整个应用程序的信息描述文件，定义了�
 
 1.试着自己找个应用双开、修改名字、找个英文应用汉化  
 2.替换第一关挑战中的图片  
-  
+
 # 六、视频及课件地址  
-  
+
 [百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)  
 [阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)  
 [哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV)  
-  
+
 # 七、其他章节  
 
 [《安卓逆向这档事》一、模拟器环境搭建](https://www.52pojie.cn/thread-1695141-1-1.html)
@@ -100,13 +100,13 @@ AndroidManifest.xml文件是整个应用程序的信息描述文件，定义了�
 [《安卓逆向这档事》番外实战篇1-某电影视全家桶](https://www.52pojie.cn/thread-1814917-1-1.html)  
 [《安卓逆向这档事》十三、是时候学习一下Frida一把梭了(上)](https://www.52pojie.cn/thread-1823118-1-1.html)  
 [《安卓逆向这档事》十四、是时候学习一下Frida一把梭了(中)](https://www.52pojie.cn/thread-1838539-1-1.html)  
-  
 
-  
+
+
 # 八、参考文档  
-  
+
 
 [【VirtualAPP 双开系列08】如何实现多开 - UID](https://blog.csdn.net/u014294681/article/details/116270479)  
-  
-  
+
+
 PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压
